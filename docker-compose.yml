@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  bamboo:
+    image: atlassian/bamboo-server
+    restart: unless-stopped
+    volumes:
+      - ./bamboo/data:/var/atlassian/application-data/bamboo
+    ports:
+      - 54663:54663
+      - 8085:8085

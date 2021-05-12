@@ -1,0 +1,6 @@
+bamboo/data/*
+!bamboo/data/bamboo.cfg.xml
+
+.venv
+__pychache__
+plugins/bamboo/__pycache__

@@ -1,0 +1,9 @@
+[Core]
+Name = Bamboo
+Module = Bamboo
+
+[Documentation]
+Description = This plugin contains commands that can be used to interact with bamboo server API.
+
+[Python]
+Version = 2+
