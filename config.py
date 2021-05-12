@@ -9,10 +9,12 @@ import os
 BACKEND = 'Slack'  # Errbot will start in text mode (console only mode) and will answer commands from there.
 
 BOT_IDENTITY = {
-  'token': 'xoxb-701902062022-2057323914241-xAnEHqOZxQC64QySbxdkcRrD'
+  'token': '' # REQUIRED: add new token here https://www.youtube.com/watch?v=ImEYYI25Nxg
 }
 
-BOT_DATA_DIR = r'/Users/samholden/Git/reginald/data'
+
+# Change these paths
+BOT_DATA_DIR = r'/Users/samholden/Git/reginald/data' 
 BOT_EXTRA_PLUGIN_DIR = r'/Users/samholden/Git/reginald/plugins'
 
 BOT_LOG_FILE = r'/Users/samholden/Git/reginald/errbot.log'
